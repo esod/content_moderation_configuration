@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies: {  }
+id: reviewer
+label: Reviewer
+weight: 5
+is_admin: null
+permissions:
+  - 'access content'
+  - 'create page content'
+  - 'delete any page content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit any page content'
+  - 'edit own page content'
+  - 'revert page revisions'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition ready_for_review'
+  - 'use editorial transition request_publish'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view page revisions'
