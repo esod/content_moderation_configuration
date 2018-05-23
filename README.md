@@ -2,7 +2,7 @@ Enable the content_moderation module. Use the following drush <a href="https://d
 
 drush config-import --partial --source=/PATH_TO_REPO/content_moderation_configuration
 
-Users are content in Drupal. After importing the configuration, make three users with roles assigned like this:    
+Users are content in Drupal. After enabling the content moderation module and importing the configuration, create three users with roles assigned like this:    
 <ol>
   <li>Reviewer user with Reviewer role</li>
   <li>Author user with Author role</li>
