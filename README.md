@@ -4,7 +4,7 @@ drush config-import --partial --source=/PATH_TO_REPO/content_moderation_configur
 
 Users are content in Drupal. After enabling the content moderation module and importing the configuration, create three users with roles assigned like this:    
 <ol>
-  <li>Reviewer user with Reviewer role</li>
   <li>Author user with Author role</li>
+  <li>Reviewer user with Reviewer role</li>
   <li>Publisher user with Publisher role</li>
 </ol>
